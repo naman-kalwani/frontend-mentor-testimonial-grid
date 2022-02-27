@@ -1,0 +1,171 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ecf2f8;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  
+}
+
+.container {
+  padding: 5% 2%;
+}
+
+.content {
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  font-size: 13px;
+/* border radius change the corners of containers  */
+  box-shadow: 1px 1px 5px 1px  rgba(0,0,0, 0.2);
+}
+
+.div-1 {
+  background-color: #7541c8;
+  color: #ffffff;
+  padding: 20px;
+  /* margin-right: 20px; */
+  position: relative;
+  z-index: 0;
+}
+.div-2 {
+  background-color: hsl(217, 19%, 35%);
+  color: #ffffff;
+  padding: 20px;
+}
+.div-3 {
+  background-color: #ffffff;
+  padding: 20px;
+  /* margin-right: 20px; */
+  color: #48556a;
+}
+.div-4 {
+  background-color: #19212e;
+  color: #ffffff;
+  padding: 20px;
+}
+.div-5 {
+  background-color: #ffffff;
+  color: #48556a;
+  padding: 20px;
+  flex-basis: 20% ;
+}
+
+.container {
+  display: flex;
+  /* width: 900px; */
+  margin: 0 auto;
+  justify-content: space-between;
+  max-width: 1440px;
+  
+}
+
+.top{
+  display: flex;
+  flex-basis: 50%;
+  justify-content: space-between;
+}
+
+.bottom{
+  display: flex;
+  flex-basis: 50%;
+  justify-content: space-between ;
+}
+
+.main-left{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-basis: 78%;
+  /* 2 % margin will be added b/w them by using s[ace b/w */
+  }
+ 
+.div-1{
+    flex-basis: 63%;
+  }
+.div-2{
+  flex-basis: 35% ;
+}
+.div-3{
+  flex-basis: 35%;
+}
+.div-4{
+  flex-basis:63% ;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  z-index: 2;
+  position: relative;
+}
+
+.header img{
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.header-2{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header-2 img{
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.header-3{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header-3 img{
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.header-4{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header-4 img{
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.header-5{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header-5 img{
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.content h4{
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+.content p{
+  opacity: 70%;
+}
+
+.name{
+  opacity: 100%;
+  font-size: 1rem;
+}
+
+.quote{
+  position: absolute;
+  z-index: -1;
+  right: 15%;
+}
